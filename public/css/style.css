@@ -10048,6 +10048,9 @@ h1 {
 #nav {
   float: right;
 }
+#nav ul {
+  margin: 10px 0;
+}
 #nav li {
   display: inline;
   margin: 0 0 0 15px;
@@ -10483,57 +10486,53 @@ footer p a:hover {
     float: none;
   }
 
-  #home {
+  #beranda {
     padding: 20px 0px;
   }
-  #home .bungkus {
+  #beranda .bungkus {
     padding: 0 20px;
   }
-  #home article {
+  #beranda article {
     padding: 10em 0;
   }
-  #home article h1 {
+  #beranda article h1 {
     padding: 30px 0;
     font-size: 2em;
     word-wrap: break-word;
   }
-  #home article h1 span {
+  #beranda article h1 span {
     font-size: 20px;
   }
-  #home article .kiri, #home article .kanan {
+  #beranda article .kiri, #beranda article .kanan {
     text-align: center;
   }
-  #home nav {
+  #beranda nav {
     float: none;
   }
-  #home nav ul {
+  #beranda nav ul {
     display: none;
     margin: 0;
     padding: 0;
   }
-  #home nav ul li {
+  #beranda nav ul li {
     float: left;
     margin: 0;
     display: block;
     width: 100%;
   }
-  #home nav ul li a {
+  #beranda nav ul li a {
     display: block;
     padding: 10px 0;
   }
-  #home nav .btn {
+  #beranda nav .btn {
     display: block;
     font-size: 1em;
   }
 
-  #service .thumb {
-    position: relative;
-    margin: auto;
-    margin-bottom: 15px;
+  #gerai .kanan, #gerai .kiri {
+    text-align: center !important;
   }
-  #service article {
-    text-align: center;
-    padding-left: 0;
-    text-align: center;
+  #gerai .map {
+    margin-bottom: 1.5em;
   }
 }
