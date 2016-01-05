@@ -9999,9 +9999,9 @@ h1 {
   left: 0;
   right: 0;
   z-index: 10;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -10413,6 +10413,31 @@ footer p a:hover {
   position: relative;
 }
 
+.putar {
+  position: relative;
+  -webkit-animation: putar 1.5s infinite;
+  /* Chrome, Safari, Opera */
+  animation: putar 1.5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes putar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Standard syntax */
+@keyframes putar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .modal-content, .thumbnail, .thumbnail {
   border-radius: 0px !important;
 }
