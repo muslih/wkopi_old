@@ -9992,7 +9992,6 @@ h1 {
 }
 
 #loading {
-  padding-top: 10em;
   background-color: #5AA02D;
   position: fixed;
   top: 0;
@@ -10000,6 +9999,19 @@ h1 {
   left: 0;
   right: 0;
   z-index: 10;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .kotak {
@@ -10395,6 +10407,10 @@ footer p a {
 footer p a:hover {
   opacity: 1;
   text-decoration: none;
+}
+
+#logo {
+  position: relative;
 }
 
 .modal-content, .thumbnail, .thumbnail {
