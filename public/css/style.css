@@ -9992,7 +9992,7 @@ h1 {
 }
 
 #loading {
-  background-color: #5AA02D;
+  background-color: #0A7251;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -10084,7 +10084,7 @@ h1 {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #5AA02D;
+  background: #0A7251;
   color: #fff;
   padding: 0px 33px 5px 13px;
   border-radius: 100%;
@@ -10103,7 +10103,7 @@ h1 {
 
 #menuResp {
   display: none;
-  background-color: #5AA02D;
+  background-color: #0A7251;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -10158,7 +10158,7 @@ header.fill {
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  background-color: #5AA02D;
+  background-color: #0A7251;
 }
 header .btn {
   display: none;
@@ -10217,7 +10217,7 @@ section#beranda article {
   color: #444;
 }
 #tentang h1 {
-  color: #5AA02D;
+  color: #0A7251;
 }
 #tentang h2 {
   color: #444;
@@ -10275,12 +10275,12 @@ section#beranda article {
 }
 
 #galeri {
-  background: rgba(90, 160, 45, 0.1);
+  background: rgba(10, 114, 81, 0.1);
   color: #444;
 }
 #galeri .thumb {
   background-color: #fff;
-  color: #5AA02D;
+  color: #0A7251;
   overflow: hidden;
   width: 100px;
   height: 100px;
@@ -10362,7 +10362,7 @@ section#beranda article {
   color: #444;
 }
 #gerai h1 {
-  color: #5AA02D;
+  color: #0A7251;
 }
 #gerai [class*="zeen"] {
   -moz-transition-duration: 0.5s;
